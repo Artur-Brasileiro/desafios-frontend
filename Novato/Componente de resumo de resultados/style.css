@@ -1,9 +1,62 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
-main, html{
-    color: white;
+body, html{
     padding: 0;
     margin: 0;
     font-family: 'Hanken Grotesk', sans-serif;;
+}
+
+section#one{
+    border-radius: 0px 0px 40px 40px;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+section#one > h2{
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.719);
+    padding-top: 25px;
+}
+
+section#one > div#circle{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: auto;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1) 50%, hsla(241, 72%, 46%, 0));
+    text-align: center;
+    margin-top: 30px;
+}
+
+section#one > div#circle > div#text{
+    display: inline-block;
+}
+
+section#one > div#circle > div#text > h1{
+    color: white;
+    font-size: 4rem;
+    margin: 45px 0px 0px 0px;
+}
+
+section#one > div#circle > div#text > p{
+    color: rgba(255, 255, 255, 0.719);
+    font-size: 1rem;
+    margin: 0px
+}
+
+section#one > h1{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 35px;
+    margin: 0;
+}
+
+section#one > p{
+    color: rgba(255, 255, 255, 0.719);
+    padding: 10px 35px 50px 35px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0;
 }
