@@ -48,7 +48,7 @@ section#one > div#circle > div#text > p{
 section#one > h1{
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2rem; 
     padding-top: 35px;
     margin: 0;
 }
