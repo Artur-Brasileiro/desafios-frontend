@@ -59,4 +59,96 @@ section#one > p{
     text-align: center;
     font-size: 1.2rem;
     margin: 0;
+    font-weight: 500;
+}
+
+
+
+section#two > h2{
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+section#two > article{
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+}
+
+section#two > article > div#names{
+    display: inline-block;
+    padding-right: 100px;
+}
+
+section#two > article > div#names > p#reaction{
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsla(0, 100%, 67%, 0.795);
+}
+
+section#two > article > div#names > p#memory{
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsla(39, 100%, 56%, 0.795);
+}
+
+section#two > article > div#names > p#verbal{
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsla(166, 100%, 37%, 0.795);
+}
+
+section#two > article > div#names > p#visual{
+    padding-bottom: 15px;
+    text-align: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: hsla(234, 85%, 45%, 0.795);
+}
+
+section#two > article > div#number_bold{
+    display: inline-block;
+}
+
+section#two > article > div#number_bold > p{
+    padding-top: 26px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.692);
+}
+
+section#two > article > div#numbers{
+    display: inline-block;
+}
+
+div#numbers > p{
+    padding-top: 26px;
+}
+
+section#two > article > div#numbers > p.values{
+    color: rgba(0, 0, 0, 0.432);
+}
+
+section#two > article > div#buttom{
+    margin: auto;
+    width: 300px;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+section#two > article > div#buttom:hover{
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+section#two > article > div#buttom > p{
+    color: white;
+    font-weight: 800;
+    padding: 15px;
 }
